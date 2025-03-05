@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+}
+
+
+
+.hero-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url(./nubelson-fernandes-iE71-TMrrkE-unsplash.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #fff;
+}
+
+nav {
+	width: 50%;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 700px;
+}
+
+li {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 2px;
+}
+
+li:hover {
+	color: #D870D8
+}
+
+.arrows {
+	width: 60px;
+	height: 172px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #fff;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrows 2s infinite;
+	-webkit-animation: arrows 2s infinite;
+}
+
+@keyframes arrows {
+	0% {
+		opacity: 0
+	}
+
+	40% {
+		opacity: 1
+	}
+
+	80% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes arrows {
+	0% {
+		opacity: 0
+	}
+
+	40% {
+		opacity: 1
+	}
+
+	80% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+
+.arrows path.a1 {
+	animation-delay: -1s;
+	-webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+	animation-delay: -0.5s;
+	-webkit-animation-delay: -0.5s;
+}
+
+.arrows path.a3 {
+	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+}
+
+.content-container {
+	height: 100vh;
+	background-color: #333;
+	color: #fff;
+}
+
+.profile-container {
+	color: #333;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(./tecnologia-de-rede-futurista-azul_53876-100679.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile-content {
+	width: 30%;
+}
+
+.profile-text {
+	padding: 20px;
+}
+
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 350px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 8px;
+}
+
+.profile-image {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	border: 4px solid #D870D8;
+}
+
+.name-text {
+	font-family: Courier, sans-serif;
+	font-size: 21px;
+	margin-top: 15px;
+}
+
+.profile-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	text-align: center;
+	width: 80%;
+	margin-top: 10px;
+}
+
+.profile-button {
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+	border: none;
+	background-color: #D870D8;
+	cursor: pointer;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 35px;
+}
+
+
+.divider {
+	width: 100%;
+	border-top: .5px solid #bfbfbf21;
+	margin: 20px 0;
+	
+}
+
+.icons-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.icon-item {
+	width: 100%;
+	height: auto;
+}
+
+.profile-sinopse {
+	width: 430px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 17px;
+
+}
