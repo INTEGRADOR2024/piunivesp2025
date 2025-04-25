@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 
 <head>
 	<meta charset="UTF-8">
@@ -10,98 +10,268 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap"
-		rel="stylesheet">
+
 </head>
 
 <body>
+	<section class="menu">
+		<div class="container">
+			<img class="logotipo" src="./IMAGENS/download.png">
+			<h1 class="entrada">CONTROLE DE PATRIMÔNIO</h1>
+			<h2 class="subtitulo">MENU</h2>
+			<a>
+				<nav>
+					<ul>
+						<li><a href="./project-container" class="actived">Patrimônio Ativo</a></li>
+						<li><a href="" class="actived">Patrimônio Desuso</a></li>
+						<li><a href="" class="actived">Patrimônio Despachado</a></li>
+						<li><a href="" class="actived">Contato</a></li>
+					</ul>
+				</nav>
+			</a>
+		</div>
 
-	<div class="hero-container">
-		<img class="logotipo" src="./IMAGENS/download.png">
-		<h1>CONTROLE DE PATRIMÔNIO</h1>
 
 
-		<nav>
-			<h2 class="subtitulo">MENU </h2>
-			<ul class="menu">
-				<li>Patrimônio Ativo</li>
-				<li>Patrimônio Desuso</li>
-				<li>Patrimônio Despachado</li>
-				<li>Contatos</li>
-			</ul>
-		</nav>
 
-	</div>
-	<div class="content-container">
-		<h2 class="titulo">PATRIMÔNIO ATIVO</h2>
-	</div>
-	<div class="content-container">
+
 		<div class="project-container">
-			<div class="project-content">
-				<div class="position-container left">
-					<div class="project-card">
-						<image class="project-image" src="./Tab IMC 2025-03-10 17-53-49.png" />
-						<p class="project-text">
-							"Projeto desenvolvido com o objetivo de simular um site para vendas de ingresso referente ao
-							filme do Batman" - para este projeto foi utilizado as linguagens: HTML-CSS-JavaScript
-						</p>
-					</div>
-
-					<div class="position-container right">
-						<div class="project-card">
-							<image class="project-image" src="./Calculadora 2025-03-10 17-59-48.png" />
-							<p class="project-text">
-								"Projeto desenvolvido com o objetivo de simular um site para vendas de ingresso
-								referente ao
-								filme do Batman" - para este projeto foi utilizado as linguagens: HTML-CSS-JavaScript
-							</p>
-						</div>
-					</div>
+			<form class="form">
+				<h1 class="title">PATRIMÔNIO ATIVO</h1>
+				<div>
+					<label for="numero" class="pat">PATRIMÔNIO</label>
+					<input type="text" id="numero" placeholder="Digite apenas Nºs" name="numero" maxlength="9"
+						autocomplete="off" />
+					<label for="date" class="date">DATA DE ENTRADA</label>
+					<input type="date" id="date" placeholder="xx/xx/xx" name="date" />
+					<label for="tipo" class="tipo"><strong>ORIGEM</strong></label>
+					<select name="TIPO" id="tipo">
+						<option selected value="">Procedência</option>
+						<option>COMPRA</option>
+						<option>CESSÃO</option>
+						<option>DOAÇÃO</option>
+						<option>EMPRÉSTIMO</option>
+						<option>ALMOXARIFADO</option>
+					</select>
 				</div>
-				<div class="position-container left">
-					<div class="project-card">
-						<image class="project-image" src="./Batman 2025-03-10 17-56-38.png" />
+				<div>
+					<label for="datedev" class="datadev">DATA DE DEVOLUÇÃO</label>
+					<input type="date" class="datedev" id="datedev" placeholder="xx/xx/xx" name="date" />
+					<label for="local" class="local"><strong>LOCAL</strong></label>
+					<select name="local" id="local">
+						<option selected value="">Local</option>
+						<option>SALÃO</option>
+						<option>ESCRITÓRIO</option>
+						<option>SALA1</option>
+						<option>SALA2</option>
+						<option>SALA3</option>
+					</select>
+					<label for="estado" class="estado"><strong>SITUAÇÃO</strong></label>
+					<select name="estado" id="estado">
+						<option selected value="">Situação</option>
+						<option>ÓTIMO</option>
+						<option>BOM</option>
+						<option>REGULAR </option>
+						<option>RUIM</option>
+						<option>PÉSSIMO</option>
+					</select>
+					<div class="calculo">
+						<label for="valor" class="valor">VALOR</label>
+						<label for="valor" class="money">R$</label>
+						<input type="number" id="valor" class="valor" name="valor" min="0.01" max="11" step="0.01" />
+						<label for="vida" class="util">VIDA ÚTIL<span style="font-size: 20px"> - em anos</span></label>
+						<input type="number" id="vida" class="vida" name="vida" />
+						<button id="botao" type="button" class="botao" onclick="clicar()">CALCULAR</button>
+						<label for="resultado" class="correcao">VALOR CORRIGIDO</label>
+						<label for="resultado" class="dinheiro">R$</label>
+						<input name="resultado" readonly id="resultado">
+					</div>
+					<div>
+						<label for="reparo" class="reparo">NECESSITA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="reparo" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="reparo" id="repnao">
 
-						<p class="project-text">
-							"Projeto desenvolvido com o objetivo de simular um site para vendas de ingresso referente ao
-							filme do Batman" - para este projeto foi utilizado as linguagens: HTML-CSS-JavaScript
-						</p>
+						<label for="reparo" class="reparo">CONDIÇÕES PARA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="condic" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="condic" id="repnao">
+
 					</div>
 				</div>
 				<div>
+					<label for="desc" class="desc1">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc1" name="desc" cols="50" rows="10"></textarea>
+					<label for="desc" class="desc2">INVENTARIANTE</label>
+					<textarea placeholder="OBJETO" id="desc2" name="desc" cols="50" rows="10"></textarea>
+
+					<label for="desc" class="desc3">LOCAL</label>
+					<textarea placeholder="OBJETO" id="desc3" name="desc" cols="50" rows="10"></textarea>
+
 				</div>
-				<form name="meu_form">
-
-					<h1>Entre em contato</h1>
-
-					<input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
-					<label for="nome">Nome</label>
-
-					<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-					<label for="fone">Fone</label>
-
-					<input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
-					<label for="email">Email</label>
-
-					<textarea placeholder="Deixe sua opnião"></textarea>
-
-					<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-				</form>
-				<header>
-
-					<nav>
-						<ul>
-							<a href="../index.html">
-								<li>RETORNAR</li>
-							</a>
-
-						</ul>
-					</nav>
-
-			</div>
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
+				</div>
+				<footer class="rodape">
+					<p>
+						Projeto Integrador
+					</p>
+				</footer>
+			</form>
 		</div>
-</body>
 
+		<script src="./script.js"></script>
+
+		<div class="hero-container">
+			<form class="form">
+				<h1 class="title">PATRIMÔNIO DESUSO</h1>
+				<div>
+					<label for="numero" class="pat">PATRIMÔNIO</label>
+					<input type="text" id="numero" placeholder="Digite apenas Nºs" name="numero" maxlength="9"
+						autocomplete="off" />
+					<label for="date" class="date">DATA DE ENTRADA</label>
+					<input type="date" id="date" placeholder="xx/xx/xx" name="date" />
+					<label for="tipo" class="tipo"><strong>ORIGEM</strong></label>
+					<select name="TIPO" id="tipo">
+						<option selected value="">Procedência</option>
+						<option>COMPRA</option>
+						<option>CESSÃO</option>
+						<option>DOAÇÃO</option>
+						<option>EMPRÉSTIMO</option>
+						<option>ALMOXARIFADO</option>
+					</select>
+				</div>
+				<div>
+					<label for="datedev" class="datadev">DATA DE DEVOLUÇÃO</label>
+					<input type="date" class="datedev" id="datedev" placeholder="xx/xx/xx" name="date" />
+					<label for="local" class="local"><strong>LOCAL</strong></label>
+					<select name="local" id="local">
+						<option selected value="">Local</option>
+						<option>SALÃO</option>
+						<option>ESCRITÓRIO</option>
+						<option>SALA1</option>
+						<option>SALA2</option>
+						<option>SALA3</option>
+					</select>
+					<label for="estado" class="estado"><strong>SITUAÇÃO</strong></label>
+					<select name="estado" id="estado">
+						<option selected value="">Situação</option>
+						<option>ÓTIMO</option>
+						<option>BOM</option>
+						<option>REGULAR </option>
+						<option>RUIM</option>
+						<option>PÉSSIMO</option>
+					</select>
+
+					<div class="calcular">
+						<label for="valor" class="num1">VALOR</label>
+						<label for="valor" class="money">R$</label>
+						<input type="number" id="num1" class="num1" name="valor" min="0.01" max="11" step="0.01" />
+						<label for="util" class="util">VIDA ÚTIL<span style="font-size: 20px"> - em anos</span></label>
+						<input type="number" id="num2" class="num2" name="vida" />
+						<button id="botao" type="button" class="botao" onclick="calcular()">CALCULAR</button>
+						<label for="resultadoII" class="correcao">VALOR CORRIGIDO</label>
+						<label for="resultadoII" class="dinheiro">R$</label>
+						<input name="resultadoII" readonly id="resultadoII">
+					</div>
+				</div>
+				<div>
+					<label for="desc" class="desc">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc" name="desc" cols="50" rows="10"></textarea>
+				</div>
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
+				</div>
+				<footer class="rodape">
+					<p>
+						Projeto Integrador
+					</p>
+				</footer>
+			</form>
+		</div>
+
+		<script src="main.js"></script>
+
+		<div class="container-file">
+			<form class="form">
+				<h1 class="title">PATRIMÔNIO DESUSO</h1>
+				<div>
+					<label for="numero" class="pat">PATRIMÔNIO</label>
+					<input type="text" id="numero" placeholder="Digite apenas Nºs" name="numero" maxlength="9"
+						autocomplete="off" />
+					<label for="date" class="date">DATA DE ENTRADA</label>
+					<input type="date" id="date" placeholder="xx/xx/xx" name="date" />
+					<label for="tipo" class="tipo"><strong>ORIGEM</strong></label>
+					<select name="TIPO" id="tipo">
+						<option selected value="">Procedência</option>
+						<option>COMPRA</option>
+						<option>CESSÃO</option>
+						<option>DOAÇÃO</option>
+						<option>EMPRÉSTIMO</option>
+						<option>ALMOXARIFADO</option>
+					</select>
+				</div>
+				<div>
+					<label for="datedev" class="datadev">DATA DE DEVOLUÇÃO</label>
+					<input type="date" class="datedev" id="datedev" placeholder="xx/xx/xx" name="date" />
+					<label for="local" class="local"><strong>LOCAL</strong></label>
+					<select name="local" id="local">
+						<option selected value="">Local</option>
+						<option>SALÃO</option>
+						<option>ESCRITÓRIO</option>
+						<option>SALA1</option>
+						<option>SALA2</option>
+						<option>SALA3</option>
+					</select>
+					<label for="estado" class="estado"><strong>SITUAÇÃO</strong></label>
+					<select name="estado" id="estado">
+						<option selected value="">Situação</option>
+						<option>ÓTIMO</option>
+						<option>BOM</option>
+						<option>REGULAR </option>
+						<option>RUIM</option>
+						<option>PÉSSIMO</option>
+					</select>
+
+					<div class="calcular">
+						<label for="valor" class="num3">VALOR</label>
+						<label for="valor" class="money">R$</label>
+						<input type="number" id="num3" class="num3" name="valor" min="0.01" max="11" step="0.01" />
+						<label for="util" class="util">VIDA ÚTIL<span style="font-size: 20px"> - em anos</span></label>
+						<input type="number" id="num4" class="num4" name="vida" />
+						<button id="botao" type="button" class="botao" onclick="calcular()">CALCULAR</button>
+						<label for="resultadoIII" class="correcao">VALOR CORRIGIDO</label>
+						<label for="resultadoIII" class="dinheiro">R$</label>
+						<input name="resultadoIII" readonly id="resultadoIII">
+					</div>
+				</div>
+				<div>
+					<label for="desc" class="desc">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc" name="desc" cols="50" rows="10"></textarea>
+				</div>
+
+				<div class="btn">
+					<button type="submit" id="botao1" class="botao1">SALVAR</button>
+					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
+					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
+				</div>
+
+				<footer class="rodape">
+					<p>
+						Projeto Integrador
+					</p>
+				</footer>
+
+		</div>
+
+		<script src="valor.js"></script>
+		</form>
+</body>
 
 </html>
