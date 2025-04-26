@@ -1,5 +1,3 @@
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -153,7 +151,7 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	margin: 0;
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 }
 
@@ -172,8 +170,6 @@ section nav ul li a.actived {
 	display: inline-flex;
 	justify-content: center;
 }
-
-
 
 .form h1 {
 	font-size: 40px;
@@ -235,7 +231,6 @@ label {
 	border-radius: 15px;
 	align-items: left;
 	color: #fff;
-	padding-right: auto;
 }
 
 #numero {
@@ -318,55 +313,54 @@ label {
 }
 
 .desc1 {
-	width: 35px;
+	width: 25px;
 	height: 30px;
 	margin-top: 25px;
 	margin-bottom: 0px;
 	margin-left: 20px;
-	align-items: center;
+	position: absolute;
 	text-align: center;
 	display: flex;
 	color: #fff;
 	padding-right: 140px;
+	padding-bottom: 10px;
 }
 
 .desc2 {
-	width: 65px;
-	height: 30px;
-	margin-top: 25px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	align-items: center;
-	text-align: center;
-	display: flex;
-	color: #fff;
-	padding-right: 140px;
-
-}
-
-.desc3 {
-	width: 20px;
+	width: 75px;
 	height: 30px;
 	margin-top: 25px;
 	margin-bottom: 0px;
-	margin-left: 20px;
-	align-items: center;
+	margin-left: 28px;
+	position: absolute;
 	text-align: center;
-	display: flex;
+	display: inline-flex;
 	color: #fff;
 	padding-right: 140px;
+	
+}
+
+.desc3 {
+	width: 80px;
+	height: 30px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 28px;
+	position: absolute;
+	text-align: center;
+	display: inline;
+	color: #fff;
 }
 
 #desc1 {
 	width: 500px;
 	height: 220px;
 	margin-left: 20px;
-	margin-top: 15px;
+	margin-top: 85px;
 	font-size: 25px;
 	border: 1px solid #454545;
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+	justify-content: center;
 	color: #454545;
 	float: inline-start;
 	padding: 5px;
@@ -376,12 +370,11 @@ label {
 	width: 500px;
 	height: 220px;
 	margin-left: 20px;
-	margin-top: 15px;
+	margin-top: 85px;
 	font-size: 25px;
 	border: 1px solid #454545;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+	display: inline;
+	justify-content: center;
 	color: #454545;
 	float: inline-start;
 	padding: 5px;
@@ -391,14 +384,13 @@ label {
 	width: 500px;
 	height: 220px;
 	margin-left: 20px;
-	margin-top: 15px;
+	margin-top: 85px;
 	font-size: 25px;
 	border: 1px solid #454545;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
+	display: inline-flex;
+	justify-content: center;
 	color: #454545;
-	float: ;
+	float: inline-start;
 	padding: 5px;
 }
 
@@ -426,7 +418,6 @@ label {
 .calculator {
 	display: inline-block;
 }
-
 
 .legenda {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -482,8 +473,8 @@ label {
 	width: 70px;
 }
 
-.num1 input{
-	margin-left: 30px;	
+.num1 input {
+	margin-left: 30px;
 	align-items: center;
 	color: #454545;
 	width: 50px;
@@ -496,7 +487,7 @@ label {
 }
 
 .num2 {
-	margin-left: 30px;	
+	margin-left: 30px;
 	align-items: center;
 	color: #454545;
 	width: 50px;
@@ -519,8 +510,8 @@ label {
 	padding: 20px;
 }
 
-#num3 input{
-	margin-left: 30px;	
+#num3 input {
+	margin-left: 30px;
 	align-items: center;
 	color: #454545;
 	width: 50px;
@@ -533,7 +524,7 @@ label {
 }
 
 .num4 {
-	margin-left: 30px;	
+	margin-left: 30px;
 	align-items: center;
 	color: #454545;
 	width: 50px;
@@ -546,7 +537,7 @@ label {
 }
 
 .util {
-	margin-left: 30px;	
+	margin-left: 30px;
 	align-items: center;
 	color: #fff;
 	width: 50px;
@@ -573,7 +564,7 @@ label {
 
 .dinheiro {
 	margin-left: 1px;
-	color:#fff;
+	color: #fff;
 	width: 50px;
 	text-align: center;
 	padding: 20px;
@@ -607,7 +598,7 @@ radio {
 
 #repsim {
 	margin-left: 1px;
-	color:#d60f0f;
+	color: #d60f0f;
 	width: 50px;
 	text-align: center;
 	padding: 20px;
@@ -619,7 +610,7 @@ radio {
 
 #repnao {
 	margin-left: 1px;
-	color:#d60f0f;
+	color: #d60f0f;
 	width: 50px;
 	text-align: center;
 	padding: 20px;
@@ -628,7 +619,6 @@ radio {
 	padding-left: 10px;
 	cursor: pointer;
 }
-
 
 .reparo {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -645,7 +635,6 @@ radio {
 	display: inline;
 	justify-content: center;
 }
-
 
 .project-container input:hover, .project-container textarea:hover, .project-container input:focus, .project-container button:focus, .project-container button:hover,
 .project-container textarea:focus .project-container input number:hover, .container-file input:hover, .container-file textarea:hover, .container-file input:focus, .container-file button:focus, .hero-container input:hover, .hero-container textarea:hover, .hero-container input:focus, .hero-container button:focus, select:focus, select:hover {
@@ -669,15 +658,33 @@ button:hover {
 	text-align: center;
 }
 
+.botao {
+	font-size: 25px;
+	color: black;
+	display: inline;
+	margin-top: 20px;
+	text-decoration: double;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-left: 20px;
+	padding: 10px;
+	background-color: white;
+	align-items: flex-start;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+}
+
+
 .botao1 {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 260px;
+	margin-top: 200px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
-	margin-left: 70px;
+	margin-left: 150px;
 	padding: 10px;
 	background-color: white;
 	align-items: flex-start;
@@ -690,12 +697,13 @@ button:hover {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 100px;
+	margin-top: 200px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
-	margin-left: 170px;
+	margin-left: 200px;
 	padding: 10px;
+	justify-content: space-between;
 	background-color: white;
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
@@ -707,7 +715,7 @@ button:hover {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 100px;
+	margin-top: 190px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
@@ -720,34 +728,12 @@ button:hover {
 	cursor: pointer;
 }
 
-#botao {
-	font-size: 25px;
-	font-weight: bold;
-	color: black;
-	display: inline;
-	margin-top: 20px;
-	text-decoration: double;
-	border: 1px solid #fff;
-	border-radius: 10px;
-	margin-left: 50px;
-	padding: 10px;
-	background-color: white;
-	align-items: flex-start;
-	box-shadow: 10px 5px grey;
-	text-align: center;
-	cursor: pointer;
-	padding-right: 1px;
-}
-
 .rodape {
-	margin-top: 350px;
-	margin-bottom: 150px;
+	margin-top: 80px;
+	margin-bottom0px;
 	color: yellow;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	font-size: 25px;
-} 
-
-
-
+}

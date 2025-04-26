@@ -5,14 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
-
 	<title>PI UNIVESP</title>
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 </head>
-
 <body>
 	<section class="menu">
 		<div class="container">
@@ -30,10 +26,6 @@
 				</nav>
 			</a>
 		</div>
-
-
-
-
 
 		<div class="project-container">
 			<form class="form">
@@ -92,24 +84,20 @@
 						<input type="radio" name="reparo" id="repsim" checked>
 						<label for="repnao" id="nao">NÃO</label>
 						<input type="radio" name="reparo" id="repnao">
-
 						<label for="reparo" class="reparo">CONDIÇÕES PARA REPARO</label>
 						<label for="repsim" id="sim">SIM</label>
 						<input type="radio" name="condic" id="repsim" checked>
 						<label for="repnao" id="nao">NÃO</label>
 						<input type="radio" name="condic" id="repnao">
-
 					</div>
 				</div>
 				<div>
-					<label for="desc" class="desc1">DESCRIÇÃO</label>
-					<textarea placeholder="OBJETO" id="desc1" name="desc" cols="50" rows="10"></textarea>
-					<label for="desc" class="desc2">INVENTARIANTE</label>
-					<textarea placeholder="OBJETO" id="desc2" name="desc" cols="50" rows="10"></textarea>
-
-					<label for="desc" class="desc3">LOCAL</label>
-					<textarea placeholder="OBJETO" id="desc3" name="desc" cols="50" rows="10"></textarea>
-
+					<label for="desc1" class="desc1">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc1" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc2" class="desc2">INVENTARIANTE</label>
+					<textarea placeholder="OBJETO" id="desc2" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc3" class="desc3">LOCAL</label>
+					<textarea placeholder="OBJETO" id="desc3" name="desc1" cols="50" rows="10"></textarea>
 				</div>
 				<div class="btn">
 					<button type="submit" id="botao1" class="botao1">SALVAR</button>
@@ -123,7 +111,6 @@
 				</footer>
 			</form>
 		</div>
-
 		<script src="./script.js"></script>
 
 		<div class="hero-container">
@@ -166,7 +153,6 @@
 						<option>RUIM</option>
 						<option>PÉSSIMO</option>
 					</select>
-
 					<div class="calcular">
 						<label for="valor" class="num1">VALOR</label>
 						<label for="valor" class="money">R$</label>
@@ -178,12 +164,28 @@
 						<label for="resultadoII" class="dinheiro">R$</label>
 						<input name="resultadoII" readonly id="resultadoII">
 					</div>
+					<div>
+						<label for="reparo" class="reparo">NECESSITA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="reparo" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="reparo" id="repnao">
+						<label for="reparo" class="reparo">CONDIÇÕES PARA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="condic" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="condic" id="repnao">
+					</div>
 				</div>
 				<div>
-					<label for="desc" class="desc">DESCRIÇÃO</label>
-					<textarea placeholder="OBJETO" id="desc" name="desc" cols="50" rows="10"></textarea>
+					<label for="desc1" class="desc1">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc1" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc2" class="desc2">INVENTARIANTE</label>
+					<textarea placeholder="OBJETO" id="desc2" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc3" class="desc3">LOCAL</label>
+					<textarea placeholder="OBJETO" id="desc3" name="desc1" cols="50" rows="10"></textarea>
 				</div>
-				<div class="btn">
+			<div class="btn">
 					<button type="submit" id="botao1" class="botao1">SALVAR</button>
 					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
 					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
@@ -195,7 +197,6 @@
 				</footer>
 			</form>
 		</div>
-
 		<script src="./main.js"></script>
 
 		<div class="container-file">
@@ -250,13 +251,28 @@
 						<label for="resultadoIII" class="dinheiro">R$</label>
 						<input name="resultadoIII" readonly id="resultadoIII">
 					</div>
+					<div>
+						<label for="reparo" class="reparo">NECESSITA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="reparo" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="reparo" id="repnao">
+						<label for="reparo" class="reparo">CONDIÇÕES PARA REPARO</label>
+						<label for="repsim" id="sim">SIM</label>
+						<input type="radio" name="repsim" id="repsim" checked>
+						<label for="repnao" id="nao">NÃO</label>
+						<input type="radio" name="repnao" id="repnao">
+					</div>
 				</div>
 				<div>
-					<label for="desc" class="desc">DESCRIÇÃO</label>
-					<textarea placeholder="OBJETO" id="desc" name="desc" cols="50" rows="10"></textarea>
+					<label for="desc1" class="desc1">DESCRIÇÃO</label>
+					<textarea placeholder="OBJETO" id="desc1" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc2" class="desc2">INVENTARIANTE</label>
+					<textarea placeholder="OBJETO" id="desc2" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc3" class="desc3">LOCAL</label>
+					<textarea placeholder="OBJETO" id="desc3" name="desc1" cols="50" rows="10"></textarea>
 				</div>
-
-				<div class="btn">
+		<div class="btn">
 					<button type="submit" id="botao1" class="botao1">SALVAR</button>
 					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
 					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
@@ -267,11 +283,9 @@
 						Projeto Integrador
 					</p>
 				</footer>
-
 		</div>
-
 		<script src="./valor.js"></script>
 		</form>
+	</section>
 </body>
-
 </html>
