@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
 	<section class="menu">
 		<div class="container">
@@ -104,11 +105,6 @@
 					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
 					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
 				</div>
-				<footer class="rodape">
-					<p>
-						Projeto Integrador
-					</p>
-				</footer>
 			</form>
 		</div>
 		<script src="./script.js"></script>
@@ -185,16 +181,11 @@
 					<label for="desc3" class="desc3">LOCAL</label>
 					<textarea placeholder="OBJETO" id="desc3" name="desc1" cols="50" rows="10"></textarea>
 				</div>
-			<div class="btn">
+				<div class="btn">
 					<button type="submit" id="botao1" class="botao1">SALVAR</button>
 					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
 					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
 				</div>
-				<footer class="rodape">
-					<p>
-						Projeto Integrador
-					</p>
-				</footer>
 			</form>
 		</div>
 		<script src="./main.js"></script>
@@ -239,7 +230,6 @@
 						<option>RUIM</option>
 						<option>PÉSSIMO</option>
 					</select>
-
 					<div class="calcular">
 						<label for="valor" class="num3">VALOR</label>
 						<label for="valor" class="money">R$</label>
@@ -257,13 +247,16 @@
 						<input type="radio" name="reparo" id="repsim" checked>
 						<label for="repnao" id="nao">NÃO</label>
 						<input type="radio" name="reparo" id="repnao">
-						<label for="reparo" class="reparo">CONDIÇÕES PARA REPARO</label>
+
+						<label for="repare" class="repare">CONDIÇÕES PARA REPARO</label>
 						<label for="repsim" id="sim">SIM</label>
-						<input type="radio" name="repsim" id="repsim" checked>
+						<input type="radio" name="repare" id="repsim" checked>
 						<label for="repnao" id="nao">NÃO</label>
-						<input type="radio" name="repnao" id="repnao">
+						<input type="radio" name="repare" id="repnao">
+
+						<label for="dates" class="date">DATA DE SAÍDA</label>
+						<input type="date" id="dates" placeholder="xx/xx/xx" name="dates" />
 					</div>
-				</div>
 				<div>
 					<label for="desc1" class="desc1">DESCRIÇÃO</label>
 					<textarea placeholder="OBJETO" id="desc1" name="desc1" cols="50" rows="10"></textarea>
@@ -271,21 +264,20 @@
 					<textarea placeholder="OBJETO" id="desc2" name="desc1" cols="50" rows="10"></textarea>
 					<label for="desc3" class="desc3">LOCAL</label>
 					<textarea placeholder="OBJETO" id="desc3" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc4" class="desc4">LOCAL DE ENVIO</label>
+					<textarea placeholder="OBJETO" id="desc4" name="desc1" cols="50" rows="10"></textarea>
+					<label for="desc5" class="desc5">RECEBIDO POR </label>
+					<textarea placeholder="OBJETO" id="desc5" name="desc1" cols="50" rows="10"></textarea>
 				</div>
-		<div class="btn">
-					<button type="submit" id="botao1" class="botao1">SALVAR</button>
-					<button type="reset" id="botao2" class="botao2">LIMPAR</button>
-					<button type="submit" id="botao4" class="botao3">RETORNAR</button>
+				<div class="btn3">
+					<button type="submit" id="botaoA" class="botaoA" value="decline">SALVAR</button>
+					<button type="reset" id="botaoB" class="botaoB" value="decline">LIMPAR</button>
+					<button type="submit" id="botaoC" class="botaoC" value="decline">RETORNAR</button>
 				</div>
-
-				<footer class="rodape">
-					<p>
-						Projeto Integrador
-					</p>
-				</footer>
 		</div>
 		<script src="./valor.js"></script>
 		</form>
 	</section>
 </body>
+
 </html>

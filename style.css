@@ -142,7 +142,7 @@ section nav ul li a.actived {
 .container-file {
 	background-color: #454545;
 	width: 100%;
-	height: 120vh;
+	height: 125vh;
 	background-image: url(./IMAGENS/pngtree-digital-information-technology-network-vector-background-design-image_466270.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -337,7 +337,6 @@ label {
 	display: inline-flex;
 	color: #fff;
 	padding-right: 140px;
-	
 }
 
 .desc3 {
@@ -350,6 +349,33 @@ label {
 	text-align: center;
 	display: inline;
 	color: #fff;
+}
+
+.desc4 {
+	width: 230px;
+	height: 30px;
+	margin-left: 25px;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	color: #fff;
+	margin-top: 340px;
+	border: 3px solid yellow;
+	border-radius: 15px;
+}
+
+.desc5 {
+	width: 200px;
+	height: 30px;
+	margin-left: 555px;
+	position: absolute;
+	text-align: center;
+	display: grid;
+	color: #fff;
+	margin-top: 340px;
+	border: 3px solid yellow;
+	border-radius: 15px;
+
 }
 
 #desc1 {
@@ -393,6 +419,35 @@ label {
 	float: inline-start;
 	padding: 5px;
 }
+
+#desc4 {
+	width: 500px;
+	height: 220px;
+	margin-left: 20px;
+	margin-top: 85px;
+	font-size: 25px;
+	border: 1px solid #454545;
+	display: flex;
+	justify-content: center;
+	color: #454545;
+	float: inline-start;
+	padding: 5px;
+}
+
+#desc5 {
+	width: 500px;
+	height: 220px;
+	margin-left: 20px;
+	margin-top: 85px;
+	font-size: 25px;
+	border: 1px solid #454545;
+	display: flex;
+	justify-content: center;
+	color: #454545;
+	float: inline-start;
+	padding: 5px;
+}
+
 
 .date label {
 	margin-left: 30px;
@@ -636,6 +691,27 @@ radio {
 	justify-content: center;
 }
 
+.dates {
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 230px;
+	display: inline;
+	border: 3px solid yellow;
+	border-radius: 15px;
+	color: #fff;
+	text-align: center;
+}
+
+#dates {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 230px;
+	height: 40px;
+	align-items: center;
+	display: inline;
+	color: #454545;
+}
+
 .project-container input:hover, .project-container textarea:hover, .project-container input:focus, .project-container button:focus, .project-container button:hover,
 .project-container textarea:focus .project-container input number:hover, .container-file input:hover, .container-file textarea:hover, .container-file input:focus, .container-file button:focus, .hero-container input:hover, .hero-container textarea:hover, .hero-container input:focus, .hero-container button:focus, select:focus, select:hover {
 	border-color: #000066;
@@ -711,6 +787,7 @@ button:hover {
 	cursor: pointer;
 }
 
+
 .botao3 {
 	font-size: 25px;
 	color: black;
@@ -728,9 +805,67 @@ button:hover {
 	cursor: pointer;
 }
 
+.btn3 {
+	display: flex;
+	margin: 0 50px;
+	flex-direction: row;
+	padding-left: 1200px;
+	position: absolute;
+
+}
+
+.botaoA {
+	font-size: 25px;
+	color: black;
+	display: inline;
+	margin-top: 500px;
+	text-decoration: double;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 10px;
+	background-color: white;
+	align-items: flex-start;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+}
+
+.botaoB {
+	font-size: 25px;
+	margin: 0 25px;
+	display: inline;
+	margin-top: 500px;
+	text-decoration: double;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: white;
+	align-items: end;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+}
+
+.botaoC {
+	font-size: 25px;
+	color: black;
+	display: inline;
+	margin-top: 500px;
+	text-decoration: double;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: white;
+	align-items: end;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+}
+
 .rodape {
 	margin-top: 80px;
-	margin-bottom0px;
+	margin-bottom:0px;
 	color: yellow;
 	justify-content: center;
 	align-items: center;
