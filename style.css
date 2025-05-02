@@ -185,12 +185,7 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	display: flex;
-	justify-content: center;
-}
-.contact {
-	margin-top: 20px;
-	margin-bottom: 500px;
-
+	justify-content: start;
 }
 
 .desc6 {
@@ -199,33 +194,35 @@ section nav ul li a.actived {
 	margin-left: 20px;
 	position: absolute;
 	text-align: center;
-	position: absolute;
-	text-align: center;
 	display: flex;
 	color: #fff;
 	margin-top: 20px;
 	border: 3px solid yellow;
 	border-radius: 15px;
-	color: #fff;
-	margin-top: 50px;
-	border: 3px solid yellow;
-	border-radius: 15px;
-
 }
 
 #desc6 {
-	width: 75px;
 	height: 220px;
-	margin-top: 25px;
+	margin-top: 100px;
 	margin-bottom: 0px;
 	margin-left: 20px;
 	position: absolute;
 	text-align: left;
-	display: inline;
+	display: flex;
 	color: #454545;
 	background: white;
 	padding-right: 140px;
 	padding-bottom: 10px;
+	width: 400px;
+	line-height: 20px;
+	max-width: 400px;
+}
+
+.retorna {
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	margin-left: auto;
 }
 
 .form h1 {
@@ -919,7 +916,27 @@ button:hover {
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	cursor: pointer;
+}
 
+
+.botaoD {
+	font-size: 25px;
+	color: black;
+	display: flex;
+	margin-top: 500px;
+	margin-right: 1100px;
+	margin-left: 500px;
+	text-decoration: double;
+	border: 1px solid gray;
+	box-shadow: #454545;
+	border-radius: 10px;
+	padding: 10px;
+	padding-right: 0;
+	background-color: white;
+	align-items: center;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
 }
 
 .rodape {
