@@ -942,10 +942,30 @@ button:hover {
 .botaoD {
 	font-size: 25px;
 	color: black;
-	display: flex;
-	margin-top: 500px;
+	display: inline;
+	margin-top: 300px;
 	margin-right: 1100px;
 	margin-left: 500px;
+	text-decoration: double;
+	border: 1px solid gray;
+	box-shadow: #454545;
+	border-radius: 10px;
+	padding: 10px;
+	padding-right: 0;
+	background-color: white;
+	align-items: center;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+}
+
+.botaoE {
+	font-size: 25px;
+	color: black;
+	display: grid;
+	margin-top: 500px;
+	margin-right: 1450px;
+	margin-left: 200px;
 	text-decoration: double;
 	border: 1px solid gray;
 	box-shadow: #454545;
