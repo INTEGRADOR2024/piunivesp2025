@@ -73,7 +73,6 @@ section .container {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 0px;
 }
 
 .actived:hover {
@@ -148,8 +147,6 @@ section nav ul li a.actived {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 0px;
-	padding: 0;
 	margin: 0;
 	display: flex;
 	justify-content: center;
@@ -164,8 +161,6 @@ section nav ul li a.actived {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 0px;
-	padding: 0;
 	margin: 0;
 	display: inline-flex;
 	justify-content: center;
@@ -182,8 +177,6 @@ section nav ul li a.actived {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 0px;
-	padding: 0;
 	display: flex;
 	justify-content: start;
 }
@@ -341,7 +334,7 @@ label {
 	border-radius: 15px;
 	text-align: center;
 	align-items: center;
-	padding-right: 7px;
+	padding-right: 5px;
 }
 
 .tipo2 label {
@@ -353,7 +346,6 @@ label {
 	border-radius: 15px;
 	text-align: center;
 	align-items: center;
-	padding-right: 0px;
 }
 
 #tipo2 {
@@ -971,7 +963,6 @@ button:hover {
 	box-shadow: #454545;
 	border-radius: 10px;
 	padding: 10px;
-	padding-right: 0;
 	background-color: white;
 	align-items: center;
 	box-shadow: 10px 5px grey;
