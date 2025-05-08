@@ -1,8 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 * {
 	text-decoration: none;
@@ -12,8 +8,6 @@ body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 1em;
 	color: black;
-	margin-left: 0px;
-	margin-top: 0;
 	justify-content: center;
 }
 
@@ -59,7 +53,6 @@ h1 {
 section .container {
 	width: 100%;
 	max-width: 1216rem;
-	margin-left: 0px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
