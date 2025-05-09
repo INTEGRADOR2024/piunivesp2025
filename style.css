@@ -1,4 +1,7 @@
-
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
 * {
 	text-decoration: none;
@@ -172,37 +175,6 @@ section nav ul li a.actived {
 	background-size: cover;
 	display: flex;
 	justify-content: start;
-}
-
-.desc6 {
-	width: 300px;
-	height: 40px;
-	margin-left: 20px;
-	position: absolute;
-	text-align: start;
-	display: flex;
-	color: #fff;
-	margin-top: 20px;
-	border: 3px solid yellow;
-	border-radius: 15px;
-	text-wrap: nowrap;
-}
-
-#desc6 {
-	height: 220px;
-	margin-top: 100px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	position: absolute;
-	text-align: left;
-	display: flex;
-	color: #454545;
-	background: white;
-	padding-right: 140px;
-	padding-bottom: 10px;
-	width: 400px;
-	line-height: 20px;
-	max-width: 400px;
 }
 
 .retorna {
@@ -436,6 +408,22 @@ label {
 	border-radius: 15px;
 }
 
+.desc6 {
+	width: 300px;
+	height: 40px;
+	margin-left: 20px;
+	position: absolute;
+	text-align: start;
+	display: flex;
+	color: #fff;
+	margin-top: 20px;
+	border: 3px solid yellow;
+	border-radius: 15px;
+	text-wrap: nowrap;
+}
+
+
+
 
 #desc1 {
 	width: 500px;
@@ -505,6 +493,23 @@ label {
 	color: #454545;
 	float: inline-start;
 	padding: 5px;
+}
+
+#desc6 {
+	height: 220px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	position: absolute;
+	text-align: left;
+	display: flex;
+	color: #454545;
+	background: white;
+	padding-right: 140px;
+	padding-bottom: 10px;
+	width: 400px;
+	line-height: 20px;
+	max-width: 400px;
 }
 
 
