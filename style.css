@@ -1,11 +1,5 @@
-      {
-        "rewrites": [
-          {
-            "source": "/:all*",
-            "destination": "/"
-          }
-        ]
-      }
+
+
 
 * {
 	margin: 0px;
@@ -15,6 +9,8 @@
 * {
 	text-decoration: none;
 }
+
+
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -31,17 +27,17 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 2.5rem;
 	color: white;
 	align-items: center;
-	padding: 15px;
-	margin-left: 90px;
-	margin-bottom: 450px;
-	margin-right: 1380px;
-	margin-top: 50px;
-	border: 2px solid white;
-	border-radius: 10px;
-	box-shadow: 10px 5px grey;
+	padding: 0.9rem;
+	margin-left: 5.6rem;
+	margin-bottom: 28.12rem;
+	margin-right: 86.25rem;
+	margin-top: 3.12rem;
+	border: 0.125rem solid white;
+	border-radius: 0.625rem;
+	box-shadow: 0.625rem 0.31rem grey;
 
 }
 
