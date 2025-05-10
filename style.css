@@ -79,6 +79,7 @@ section .container {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	font-size: 1em;
 }
 
 .actived:hover {
