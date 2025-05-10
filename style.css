@@ -1,21 +1,16 @@
 
 * {
 	margin: 0;
-	padding: 0;
+	padding: 8px;
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
+	font-size: 16px;
 }
 
 * {
 	text-decoration: none;
 }
-
-p {
-	font-size: 1em;
-}
-
-
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -67,7 +62,7 @@ h1 {
 
 section .container {
 	width: 100%;
-	max-width: 1900000px;
+	max-width: 19000rem;
 	display: grid ;
 	height: 120%;
 	flex-direction: column;
