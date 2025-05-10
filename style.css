@@ -73,7 +73,7 @@ section .container {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	background-image: url(./IMAGENS/fotoPI.jpg);
+	background-image: url(IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
