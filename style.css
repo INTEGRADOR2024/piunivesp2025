@@ -63,7 +63,7 @@ h1 {
 }
 
 section .container {
-	width: 50%;
+	width: 100%;
 	/*max-width: 19456rem;*/
 	display: flex;
 	align-items: center;
