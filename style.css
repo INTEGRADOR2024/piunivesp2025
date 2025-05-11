@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
-	font-size: 1.25rem;	
+	font-size: 1.20rem;
 }
 
 * {
@@ -62,13 +62,13 @@ h1 {
 	position: relative;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.35em;
 }
 
 section .container {
 	width: 100%;
 	max-width: 19000rem;
-	display: grid ;
+	display: grid;
 	height: 120%;
 	flex-direction: column;
 	align-items: center;
@@ -78,7 +78,7 @@ section .container {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	font-size: small;
 }
 
 .actived:hover {
@@ -432,9 +432,6 @@ label {
 	border-radius: 15px;
 	text-wrap: nowrap;
 }
-
-
-
 
 #desc1 {
 	width: 500px;
@@ -807,6 +804,10 @@ button:hover {
 	display: inline-flex;
 	justify-content: center;
 	text-align: center;
+}
+
+.btn {
+	margin-bottom: 20px;
 }
 
 .botao {
