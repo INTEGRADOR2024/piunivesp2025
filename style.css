@@ -156,7 +156,7 @@ section nav ul li a.actived {
 	background-size: cover;
 	margin: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .hero-container {
@@ -170,7 +170,7 @@ section nav ul li a.actived {
 	background-size: cover;
 	margin: 0;
 	display: inline-flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 #contato {
