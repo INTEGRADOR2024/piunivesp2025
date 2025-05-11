@@ -12,6 +12,15 @@
 	text-decoration: none;
 }
 
+@media screen and (max-width: 760px){
+	.project-container{
+		width: 100%;
+		flex-direction: column;
+	}
+} 
+	
+}
+
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: black;
@@ -67,7 +76,7 @@ h1 {
 
 section .container {
 	width: 100%;
-	max-width: 19000rem;
+	max-width: 1900rem;
 	display: grid;
 	height: 120%;
 	flex-direction: column;
