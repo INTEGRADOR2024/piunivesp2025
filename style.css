@@ -4,8 +4,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	box-sizing: content-box;
+	box-sizing: ;
 	border: 0;
-	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 * {
