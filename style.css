@@ -76,7 +76,7 @@ h1 {
 
 section .container {
 	width: 100%;
-	max-width: 1900rem;
+	max-width: 190rem;
 	display: grid;
 	height: 120%;
 	flex-direction: column;
