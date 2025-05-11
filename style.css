@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
-	font-size: 16px;
+	
 }
 
 * {
@@ -140,9 +140,9 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	margin: 0;
-	display: grid;
+	display: inline-flex;
 	justify-content: center;
-	scale: 1.0;
+
 }
 
 .container-file {
