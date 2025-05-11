@@ -62,7 +62,7 @@ h1 {
 	position: relative;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	font-size: 1.35em;
+	
 }
 
 section .container {
@@ -78,7 +78,7 @@ section .container {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-size: small;
+	
 }
 
 .actived:hover {
