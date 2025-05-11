@@ -143,6 +143,7 @@ section nav ul li a.actived {
 	margin: 0;
 	display: inline-flex;
 	justify-content: center;
+	scale: 1.0;
 }
 
 .container-file {
