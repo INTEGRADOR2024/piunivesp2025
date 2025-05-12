@@ -6,10 +6,9 @@
 	border: 0;
 	font-size: 100%;
 	text-decoration: none;
-	justify-content: space-between;
 }
 
-html {
+body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: black;
 	justify-content: space-around;
