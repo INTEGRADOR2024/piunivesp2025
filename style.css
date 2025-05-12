@@ -5,9 +5,7 @@ section {
 	box-sizing: content-box;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	text-decoration: none;
-	scale: 1.0;
 	justify-content: space-around;
 	vertical-align: baseline;
 }
