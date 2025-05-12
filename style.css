@@ -1,26 +1,23 @@
-section #ativo {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	box-sizing: content-box;
-	border: 0;
-	font-size: 10px;
-	text-decoration: none;
-	scale: 1.0;
-	justify-content: space-between;
-}
-
-body {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	color: black;
-	justify-content: space-around;
+section {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
 	font-size: 100%;
-	scale: 0.5;
+	font: inherit;
+	text-decoration: none;
+	scale: 1.0;
+	justify-content: space-around;
+	vertical-align: baseline;
+}
+
+body {
+line-height: 1;
+}
+
+ul {
+	list-style: none;
 }
 
 .logotipo {
