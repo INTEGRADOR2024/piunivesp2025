@@ -1,20 +1,27 @@
-* {
+section {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
 	font-size: 100%;
+	font: inherit;
 	text-decoration: none;
+	scale: 1.0;
 	justify-content: space-around;
+	vertical-align: baseline;
 }
 
 body {
-line-height: 1;
-}
-
-ul {
-	list-style: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: black;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	box-sizing: content-box;
+	border: 0;
+	font-size: 100%;
 }
 
 .logotipo {
