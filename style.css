@@ -942,8 +942,7 @@ button {
 .botaoD {
 	font-size: 25px;
 	color: black;
-	display: flex;
-	margin: 0;
+	display: inline;
 	margin-bottom: 100px;
 	margin-right: 1100px;
 	margin-left: 500px;
@@ -963,7 +962,6 @@ button {
 	font-size: 25px;
 	color: black;
 	display: flex;
-	margin: 0;
 	margin-bottom: 100px;
 	margin-right: 1450px;
 	margin-left: 200px;
