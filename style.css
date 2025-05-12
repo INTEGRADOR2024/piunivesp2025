@@ -1,4 +1,4 @@
-* {
+#ativo {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -943,7 +943,7 @@ button {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	margin-right: 1100px;
 	margin-left: 500px;
 	text-decoration: double;
@@ -959,10 +959,11 @@ button {
 }
 
 .botaoE {
+	
 	font-size: 25px;
 	color: black;
 	display: flex;
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	margin-right: 1450px;
 	margin-left: 200px;
 	text-decoration: double;
