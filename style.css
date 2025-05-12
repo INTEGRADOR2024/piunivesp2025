@@ -1,17 +1,12 @@
-
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 	text-decoration: none;
 }
-
-
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,14 +18,7 @@ body {
 	box-sizing: content-box;
 	border: 0;
 	font-size: 100%;
-
 }
-
-html{
-	margin: 0;
-	font-size: small;
-}
-
 
 .logotipo {
 	margin-left: 80px;
@@ -72,7 +60,7 @@ h1 {
 	text-align: center;
 }
 
-section .container {
+.container {
 	width: 100%;
 	max-width: 1900rem;
 	margin: 0px;
@@ -105,7 +93,7 @@ section nav ul {
 	display: flex;
 	position: relative;
 	align-items: baseline;
-	
+
 }
 
 section nav ul li a {
@@ -139,7 +127,7 @@ section nav ul li a.actived {
 .project-container {
 	background-color: #454545;
 	width: 100%;
-	height: 120%;
+	height: 130vh;
 	background-image: url(./IMAGENS/pexels-veeterzy-303383.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -156,7 +144,7 @@ section nav ul li a.actived {
 .container-file {
 	background-color: #454545;
 	width: 100%;
-	height: 130vh;
+	height: 150vh;
 	background-image: url(./IMAGENS/pngtree-digital-information-technology-network-vector-background-design-image_466270.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -170,7 +158,7 @@ section nav ul li a.actived {
 .hero-container {
 	background-color: #454545;
 	width: 100%;
-	height: 120vh;
+	height: 130vh;
 	background-image: url(./IMAGENS/images\ \(1\).jpeg);
 	background-attachment: fixed;
 	background-position: center;
@@ -178,7 +166,7 @@ section nav ul li a.actived {
 	background-size: cover;
 	margin: 0;
 	display: grid;
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 #contato {
@@ -192,7 +180,7 @@ section nav ul li a.actived {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: grid;
+	display: flex;
 	justify-content: start;
 }
 
@@ -265,7 +253,6 @@ label {
 	border-radius: 15px;
 	align-items: left;
 	color: #fff;
-
 }
 
 #numero {
@@ -817,15 +804,15 @@ button:hover {
 	text-align: center;
 }
 
-.btn {
-	margin-bottom: 20px;
+button {
+	margin-bottom: 0;
 }
 
 .botao {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 20px;
+	margin-top: 10px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
@@ -843,13 +830,13 @@ button:hover {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 200px;
+	margin-top: 150px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
 	margin-left: 150px;
 	padding: 10px;
-	background-color: white;
+	background-color: rgb(233, 37, 37);
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
@@ -861,10 +848,10 @@ button:hover {
 	color: black;
 	display: inline;
 	margin-top: 200px;
+	margin-left: 200px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
-	margin-left: 200px;
 	padding: 10px;
 	justify-content: space-between;
 	background-color: white;
@@ -955,8 +942,9 @@ button:hover {
 .botaoD {
 	font-size: 25px;
 	color: black;
-	display: inline;
-	margin-top: 300px;
+	display: flex;
+	margin: 0;
+	margin-bottom: 100px;
 	margin-right: 1100px;
 	margin-left: 500px;
 	text-decoration: double;
@@ -964,7 +952,6 @@ button:hover {
 	box-shadow: #454545;
 	border-radius: 10px;
 	padding: 10px;
-	padding-right: 0;
 	background-color: white;
 	align-items: center;
 	box-shadow: 10px 5px grey;
@@ -975,8 +962,9 @@ button:hover {
 .botaoE {
 	font-size: 25px;
 	color: black;
-	display: grid;
-	margin-top: 500px;
+	display: flex;
+	margin: 0;
+	margin-bottom: 100px;
 	margin-right: 1450px;
 	margin-left: 200px;
 	text-decoration: double;
