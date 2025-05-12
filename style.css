@@ -75,7 +75,7 @@ section .container {
 	width: 100%;
 	max-width: 190rem;
 	margin: 0px;
-	display: flex;
+	display: grid;
 	height: 120%;
 	flex-direction: column;
 	align-items: center;
@@ -147,7 +147,7 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	margin: 0;
-	display: flex;
+	display: grid;
 	justify-content: space-around;
 
 }
@@ -162,7 +162,7 @@ section nav ul li a.actived {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-	display: flex;
+	display: grid;
 	justify-content: space-around;
 }
 
@@ -176,7 +176,7 @@ section nav ul li a.actived {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-	display: flex;
+	display: grid;
 	justify-content: space-around;
 }
 
@@ -191,7 +191,7 @@ section nav ul li a.actived {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
+	display: grid;
 	justify-content: start;
 }
 
