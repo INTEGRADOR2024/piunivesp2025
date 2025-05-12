@@ -11,12 +11,6 @@
 	text-decoration: none;
 }
 
-@media screen and (max-width: 760px){
-	.project-container{
-		width: 100%;
-		flex-direction: column;
-	}
-} 
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,8 +21,8 @@ body {
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
-	font-size: 10px;
-	list-style-type: none;
+	font-size: 100%;
+
 }
 
 .logotipo {
@@ -73,7 +67,7 @@ h1 {
 
 section .container {
 	width: 100%;
-	max-width: 190rem;
+	max-width: 1900rem;
 	margin: 0px;
 	display: grid;
 	height: 120%;
@@ -148,7 +142,7 @@ section nav ul li a.actived {
 	padding: 0;
 	margin: 0;
 	display: grid;
-	justify-content: space-around;
+	justify-content: space-between;
 
 }
 
@@ -163,7 +157,7 @@ section nav ul li a.actived {
 	background-size: cover;
 	margin: 0;
 	display: grid;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .hero-container {
@@ -177,7 +171,7 @@ section nav ul li a.actived {
 	background-size: cover;
 	margin: 0;
 	display: grid;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #contato {
