@@ -10,7 +10,11 @@
 	vertical-align: baseline;
 }
 
-body {
+h1 {
+	margin: 0;
+}
+
+section {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: black;
 	justify-content: space-around;
@@ -42,6 +46,7 @@ h1 {
 	border: 2px solid white;
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
+
 }
 
 .subtitulo {
