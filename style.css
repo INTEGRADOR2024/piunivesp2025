@@ -11,10 +11,7 @@
 	text-decoration: none;
 }
 
-html {
-	margin: 0;
-	font-size: small;
-}
+
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -28,6 +25,12 @@ body {
 	font-size: 100%;
 
 }
+
+html{
+	margin: 0;
+	font-size: small;
+}
+
 
 .logotipo {
 	margin-left: 80px;
@@ -230,6 +233,7 @@ input {
 	align-items: center;
 	align-items: flex-start;
 	border-radius: 10px;
+
 }
 
 select {
@@ -242,6 +246,7 @@ select {
 	margin-top: 5px;
 	text-align: center;
 	align-items: center;
+	margin: 0;
 }
 
 label {
@@ -260,6 +265,7 @@ label {
 	border-radius: 15px;
 	align-items: left;
 	color: #fff;
+
 }
 
 #numero {
