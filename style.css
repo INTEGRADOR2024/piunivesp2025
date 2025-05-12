@@ -74,7 +74,8 @@ h1 {
 section .container {
 	width: 100%;
 	max-width: 190rem;
-	display: grid;
+	margin: 0px;
+	display: flex;
 	height: 120%;
 	flex-direction: column;
 	align-items: center;
@@ -146,8 +147,8 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	margin: 0;
-	display: grid;
-	justify-content: space-around;
+	display: flex;
+	justif-content: space-around;
 
 }
 
@@ -161,8 +162,8 @@ section nav ul li a.actived {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-	display: grid;
-	justify-content: space-around;
+	display:flex;
+	justif-content: space-around;
 }
 
 .hero-container {
@@ -175,7 +176,7 @@ section nav ul li a.actived {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-	display: grid;
+	display: flex;
 	justify-content: space-around;
 }
 
