@@ -11,6 +11,10 @@
 	text-decoration: none;
 }
 
+html {
+	margin: 0;
+	font-size: small;
+}
 
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
