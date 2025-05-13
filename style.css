@@ -8,6 +8,10 @@
 	vertical-align: baseline;
 }
 
+.html {
+  transform: scale(0.6); /* Diminui o elemento em 20% */
+}
+
 .title {
 	margin: 0;
 }
@@ -828,7 +832,7 @@ button {
 	font-size: 25px;
 	color: black;
 	display: inline;
-	margin-top: 150px;
+	margin-top: 120px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
