@@ -8,7 +8,7 @@
 	vertical-align: baseline;
 }
 
-html {
+#content {
 	transform: scale(0.8);
 	transform-origin: 0 0;
 
