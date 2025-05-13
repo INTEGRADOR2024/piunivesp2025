@@ -8,10 +8,6 @@
 	vertical-align: baseline;
 }
 
-.html {
-  transform: scale(0.6); /* Diminui o elemento em 20% */
-}
-
 .title {
 	margin: 0;
 }
@@ -25,6 +21,7 @@ section {
 	box-sizing: border-box;
 	box-sizing: content-box;
 	border: 0;
+	transform: scale(0.8);
 }
 
 .logotipo {
@@ -148,6 +145,7 @@ section nav ul li a.actived {
 	justify-content: space-between;
 
 }
+
 /*TERCEIRA PAGINA*/
 .container-file {
 	background-color: #454545;
@@ -961,7 +959,7 @@ button {
 }
 
 .botaoE {
-	
+
 	font-size: 25px;
 	color: black;
 	display: flex;
