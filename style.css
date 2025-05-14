@@ -21,10 +21,10 @@ section {
 h1 {
 	font-size: 30px;
 	color: white;
-	width: 500px;
+	width: 150vh;
 	align-items: center;
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
 	margin-left: 90px;
 	display: flex;
 	justify-content: center;
@@ -32,6 +32,7 @@ h1 {
 	border: 2px solid white;
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
+	position: relative;
 }
 
 input {
@@ -130,10 +131,11 @@ section nav ul {
 	margin-top: 15px;
 	text-decoration: double;
 	padding: 15px;
-	display: grid;
+	display: flex;
 	position: relative;
 	align-items: flex-start;
-	gap: 10px;
+	flex-direction: row;
+	gap: 30px;
 	flex-wrap: wrap;
 }
 
