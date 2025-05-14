@@ -130,7 +130,7 @@ section nav ul {
 	margin-top: 15px;
 	text-decoration: double;
 	padding: 15px;
-	display: flex;
+	display: grid;
 	position: relative;
 	align-items: flex-start;
 	gap: 50px;
