@@ -133,8 +133,7 @@ section nav ul {
 	padding: 15px;
 	display: flex;
 	position: relative;
-	align-items: flex-start;
-	
+	align-items: center;
 	gap: 30px;
 	flex-wrap: nowrap;
 }
