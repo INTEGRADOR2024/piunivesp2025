@@ -106,7 +106,7 @@ label {
 
 .container {
 	width: 100%;
-	max-width: 1900rem;
+	max-width: 1000rem;
 
 	display: grid;
 	height: 100%;
