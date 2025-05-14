@@ -106,13 +106,13 @@ label {
 
 .container {
 	width: 100%;
-	max-width: 1000rem;
+	max-width: 500rem;
 
 	display: grid;
 	height: 100%;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: center;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -129,14 +129,12 @@ section nav ul {
 	font-size: 25px;
 	color: #454545;
 	bottom: 200px;
-	margin-left: 0PX;
 	margin-top: 15px;
 	text-decoration: double;
-	
 	padding: 15px;
 	display: flex;
 	position: relative;
-	align-items: baseline;
+	align-items: start;
 
 }
 
@@ -153,11 +151,9 @@ section nav ul li a.actived {
 	background-color: black;
 	color: #fff;
 	word-spacing: 10px;
-	box-sizing: content-box;
 	box-sizing: border-box;
 	padding-inline: 1rem;
 	padding-top: 1rem;
-	margin: 15px;
 	position: sticky;
 	border: 5px solid grey;
 	border-radius: 10px;
