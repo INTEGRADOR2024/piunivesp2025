@@ -2,21 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: content-box;
+	box-sizing: content-box;
 	border: 0;
 	text-decoration: none;
 	justify-content: space-around;
 	vertical-align: baseline;
 }
 
-#content {
-	transform: scale(0.5);
-	transform-origin: 0 0;
-
-}
-
-.title {
-	margin: 0;
-}
 
 section {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,16 +16,7 @@ section {
 	justify-content: space-around;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	box-sizing: content-box;
 	border: 0;
-}
-
-.logotipo {
-	margin-left: 80px;
-	padding: 20px;
-	border-radius: 20px;
-	margin-top: 200px;
 }
 
 h1 {
@@ -42,15 +25,66 @@ h1 {
 	width: 500px;
 	align-items: center;
 	text-align: center;
-	padding: 15px;
+	padding: 5px;
 	margin-left: 90px;
-	margin-bottom: 450px;
-	margin-right: 1370px;
-	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
 	border: 2px solid white;
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
+}
 
+input {
+	color: #454545;
+	font-weight: bold;
+	font-size: 10px;
+	height: 40px;
+	width: 200px;
+	padding: 10px;
+	font-size: 25px;
+	flex-direction: row;
+	margin-top: 30px;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+
+}
+
+select {
+	color: #454545;
+	font-weight: bold;
+	font-size: 10px;
+	height: 60px;
+	padding: 10px;
+	font-size: 25px;
+	margin-top: 5px;
+	text-align: center;
+	align-items: center;
+}
+
+label {
+	color: #454545;
+	font-weight: bold;
+	font-size: 5px;
+	height: 45px;
+	padding: 10px;
+	font-size: 25px;
+	flex-direction: row;
+	margin-top: 50px;
+	text-align: right;
+	margin-left: 20px;
+	border: 3px solid yellow;
+	border-radius: 15px;
+	align-items: left;
+	color: #fff;
+}
+
+.logotipo {
+	margin-left: 80px;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 200px;
 }
 
 .subtitulo {
@@ -73,18 +107,18 @@ h1 {
 .container {
 	width: 100%;
 	max-width: 1900rem;
-	margin: 0px;
+
 	display: grid;
-	height: 120%;
+	height: 100%;
 	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+	align-items: flex-start;
+	justify-content: space-around;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-size: 10px;
+
 }
 
 .actived:hover {
@@ -115,15 +149,14 @@ section nav ul li a {
 }
 
 section nav ul li a.actived {
-	margin-top: 1px;
 	text-decoration: double;
-	background-color: #fff;
-	color: #171026;
+	background-color: black;
+	color: #fff;
 	word-spacing: 10px;
-	padding: 35px;
-	padding-inline: 20px;
-	padding-top: 25px;
-	margin-left: 0;
+	box-sizing: content-box;
+	box-sizing: border-box;
+	padding-inline: 1rem;
+	padding-top: 1rem;
 	margin: 15px;
 	position: sticky;
 	border: 5px solid grey;
