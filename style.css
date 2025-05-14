@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: content-box;
-	box-sizing: content-box;
 	border: 0;
 	text-decoration: none;
 	justify-content: space-around;
@@ -136,6 +135,7 @@ section nav ul {
 	position: relative;
 	align-items: flex-start;
 	gap: 50px;
+	flex-wrap: nowrap;
 }
 
 section nav ul li a {
