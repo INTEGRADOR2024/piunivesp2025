@@ -108,11 +108,11 @@ label {
 	width: 100%;
 	max-width: 500rem;
 
-	display: grid;
+	display: flex;
 	height: 100%;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: space-between;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -134,8 +134,8 @@ section nav ul {
 	padding: 15px;
 	display: flex;
 	position: relative;
-	align-items: start;
-
+	align-items: flex-start;
+	gap: 50px;
 }
 
 section nav ul li a {
