@@ -133,7 +133,7 @@ section nav ul {
 	display: grid;
 	position: relative;
 	align-items: flex-start;
-	gap: 50px;
+	gap: 10px;
 	flex-wrap: wrap;
 }
 
