@@ -136,7 +136,7 @@ section nav ul {
 	align-items: flex-start;
 	flex-direction: row;
 	gap: 30px;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 section nav ul li a {
