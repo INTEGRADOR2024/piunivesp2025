@@ -133,9 +133,10 @@ section nav ul {
 	padding: 10px;
 	display: flex;
 	position: relative;
-	align-items: center;
+	align-items: flex-start;
 	gap: 10px;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	flex-direction: row;
 }
 
 section nav ul li a {
