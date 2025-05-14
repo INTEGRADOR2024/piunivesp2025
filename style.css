@@ -106,7 +106,6 @@ label {
 .container {
 	width: 100%;
 	max-width: 500rem;
-
 	display: flex;
 	height: 100%;
 	flex-direction: column;
@@ -125,7 +124,7 @@ label {
 }
 
 section nav ul {
-	font-size: 25px;
+	font-size: 20px;
 	color: #454545;
 	bottom: 200px;
 	margin-top: 15px;
@@ -140,7 +139,7 @@ section nav ul {
 
 section nav ul li a {
 	font-size: 1.9rem;
-	padding: 1.5rem .5rem;
+	padding: 1.5rem;
 	border-radius: 5px;
 	transition: all .3s ease;
 	word-spacing: 10px;
@@ -152,7 +151,7 @@ section nav ul li a.actived {
 	color: #fff;
 	word-spacing: 10px;
 	box-sizing: border-box;
-	padding-inline: 1rem;
+
 	padding-top: 1rem;
 	position: sticky;
 	border: 5px solid grey;
