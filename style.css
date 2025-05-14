@@ -130,8 +130,8 @@ section nav ul {
 	bottom: 200px;
 	margin-top: 15px;
 	text-decoration: double;
-	padding: 15px;
-	display: grid;
+	padding: 10px;
+	display: flex;
 	position: relative;
 	align-items: center;
 	gap: 30px;
@@ -152,7 +152,6 @@ section nav ul li a.actived {
 	color: #fff;
 	word-spacing: 10px;
 	box-sizing: border-box;
-
 	padding-top: 1rem;
 	position: sticky;
 	border: 5px solid grey;
