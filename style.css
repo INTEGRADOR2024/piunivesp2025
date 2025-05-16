@@ -131,10 +131,10 @@ section nav ul {
 	margin-left: 1px;
 	flex-direction: row;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: space-between;
 	gap: 10px;
 	flex-wrap: wrap;
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 section nav ul li a {
