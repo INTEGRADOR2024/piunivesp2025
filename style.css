@@ -108,7 +108,9 @@ label {
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	gap: 10px 40px;
+	justify-content: center;
+	box-sizing: content-box;
+	display: flex;
 }
 
 .actived:hover {
