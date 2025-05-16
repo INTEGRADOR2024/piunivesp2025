@@ -99,7 +99,7 @@ label {
 	color: black;
 	margin: 10px;
 	margin-left: 70px;
-	margin-top: 100px;
+	margin-top: 85px;
 	padding: 10px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -109,7 +109,7 @@ label {
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	justify-content: center;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	display: flex;
 }
 
