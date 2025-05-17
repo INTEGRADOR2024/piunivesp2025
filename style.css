@@ -175,6 +175,7 @@ section nav ul li a.actived {
 	justify-content: space-around;
 	box-sizing: border-box;
 	align-items: flex-start;
+	flex-direction: column;
 }
 
 /*TERCEIRA PAGINA*/
