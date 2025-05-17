@@ -162,7 +162,7 @@ section nav ul li a.actived {
 .project-container {
 	background-color: #454545;
 	width: 100%;
-	height: 130vh;
+	height: 100%;
 	background-image: url(./IMAGENS/pexels-veeterzy-303383.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -171,8 +171,10 @@ section nav ul li a.actived {
 	padding-top: 0px;
 	padding: 0;
 	margin: 0;
-	display: grid;
-	justify-content: space-between;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	align-items: flex-start;
 }
 
 /*TERCEIRA PAGINA*/
@@ -813,18 +815,20 @@ button {
 .botao1 {
 	font-size: 20px;
 	color: black;
-	display: inline;
-	margin-top: 120px;
+	display: inline-flex;
+	margin-bottom: 80px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
 	margin-left: 150px;
 	padding: 10px;
 	background-color: #fff;
-	align-items: flex-start;
+	align-items: end;
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	cursor: pointer;
+	justify-content: left;
+	box-sizing: content-box;
 }
 
 .botao2 {
