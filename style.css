@@ -196,7 +196,7 @@ section nav ul li a.actived {
 
 .hero-container {
 	background-color: #454545;
-	width: 100%;
+	width: 100vw;
 	height: 130vh;
 	background-image: url(./IMAGENS/images\ \(1\).jpeg);
 	background-attachment: fixed;
@@ -209,18 +209,18 @@ section nav ul li a.actived {
 }
 
 #contato {
-	margin-left: 0px;
-	margin-top: 0px;
+
 	background-color: #454545;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	background-image: url(./IMAGENS/pexels-tima-miroshnichenko-7567223.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
-	justify-content: start;
+	margin: 0;
+	display: grid;
+	justify-content: space-between;
 }
 
 .retorna {
@@ -781,7 +781,7 @@ radio {
 	font-weight: bold;
 }
 
-button:hover {
+button:hover, a:hover  {
 	transform: scale(1.1);
 	transition: all 0.4s ease-in;
 	border-color: #000066;
@@ -870,21 +870,12 @@ button {
 	cursor: pointer;
 }
 
-.btn3 {
-	display: flex;
-	margin: 0 50px;
-	margin-top: 50px;
-	flex-direction: row;
-	padding-left: 1100px;
-	position: absolute;
-
-}
-
 .botaoA {
 	font-size: 20px;
 	color: black;
-	display: inline;
+	display: inline-flex;
 	margin-top: 500px;
+	margin-left: 5px;
 	text-decoration: double;
 	border: 1px solid #fff;
 	border-radius: 10px;
@@ -895,12 +886,13 @@ button {
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	cursor: pointer;
+	justify-content: flex-start;
 }
 
 .botaoB {
 	font-size: 20px;
 	margin: 0 25px;
-	display: inline;
+	display: inline-block;
 	margin-top: 500px;
 	text-decoration: double;
 	border: 1px solid #fff;
@@ -929,44 +921,58 @@ button {
 	cursor: pointer;
 }
 
-
 .botaoD {
 	font-size: 20px;
 	color: black;
-	display: inline;
-	margin-bottom: 10px;
-	margin-right: 1100px;
-	margin-left: 500px;
+	display: inline-flex;
+	margin-top: 590px;
 	text-decoration: double;
-	border: 1px solid gray;
-	box-shadow: #454545;
+	border: 1px solid #fff;
 	border-radius: 10px;
+	margin-left: 50px;
 	padding: 10px;
 	background-color: white;
-	align-items: center;
+	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	cursor: pointer;
+	justify-content: space-between;
 }
 
 .botaoE {
-
 	font-size: 20px;
 	color: black;
-	display: flex;
-	margin-bottom: 10px;
-	margin-right: 1450px;
-	margin-left: 200px;
+	display: inline;
+	margin-top: 190px;
 	text-decoration: double;
-	border: 1px solid gray;
-	box-shadow: #454545;
+	border: 1px solid #fff;
 	border-radius: 10px;
+    margin-left: 100px; 
 	padding: 10px;
 	background-color: white;
 	align-items: center;
 	box-shadow: 10px 5px grey;
 	text-align: center;
 	cursor: pointer;
+	justify-content: space-around;
+}
+
+.botaoF {
+	font-size: 20px;
+	color: black;
+	display: inline;
+	margin-top: 190px;
+	text-decoration: double;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-left: 100px;
+	padding: 10px;
+	background-color: white;
+	align-items: center;
+	box-shadow: 10px 5px grey;
+	text-align: center;
+	cursor: pointer;
+	justify-content: space-between;
 }
 
 #email {
